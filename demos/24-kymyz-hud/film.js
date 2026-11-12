@@ -400,10 +400,10 @@ window.renderAt = async (t) => {
   ctx.drawImage(sceneC, 0, 0);
   drawReticle(hg, c, t);
   drawYurtTag(hg, c, t);
-  drawLock(hg, c, t);
   drawLeftPanel(hg, t);
   drawRightPanel(hg, t);
   drawRadar(hg, t);
+  drawLock(hg, c, t);
   drawFrame(hg, t);
   drawTitle(hg, t);
   ctx.drawImage(hudC, 0, 0);
